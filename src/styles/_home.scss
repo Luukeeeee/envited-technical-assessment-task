@@ -1,0 +1,68 @@
+.home {
+    background-image: url(/public/main/Landing_page_background_gradient.png);
+    padding: 1.5em;
+    .nav {
+        max-width: 100%;
+        height: auto;
+    }
+    p {
+        color: white;
+        text-align: center;
+    }
+    .title {
+        font-family: "Open Sans", sans-serif;
+        font-size: 50px;
+        margin-top: 3em;
+        line-height: 52px;
+        font-weight: 900;
+    }
+    .subtitle {
+        margin-top: 2.5em;
+        font-size: 23px;
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+    .btn-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 2.5em;
+    }
+    .ce-btn {
+        max-width: 60%;
+        height: auto;
+        cursor: pointer;
+        &:hover {
+            filter: brightness(1.1);
+            max-width: 65%;
+        }
+    }
+    .icongroup {
+        max-width: 100%;
+        height: auto;
+        margin-top: 1em;
+        position: absolute;
+    }
+    .left-phone {
+        position: absolute;
+        width: 50%;
+        height: auto;
+        left: -2em;
+        top: 1em;
+    }
+    .right-phone {
+        position: absolute;
+        width: 50%;
+        height: auto;
+        right: -2em;
+        top: 1em;
+    }
+    .middle-phone {
+        position: absolute;
+        width: 75%;
+        height: auto;
+        left: 12.5%;
+        top: -3em;
+        z-index: 999;
+    }
+}
